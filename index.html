@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hardik Sood - AI Engineer Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+  <div class="container header-container">
+    <a href="#" class="logo"><i class="fas fa-code"></i>Hardik Sood</a>
+
+    <div class="menu-toggle" id="menuToggle">
+      <i class="fas fa-bars"></i>
+    </div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="exp.html">Experience</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <!-- 🌙 Dark/Light Mode Toggle Button -->
+    <button id="toggle-theme" class="toggle-btn" title="Toggle Dark/Light Mode">🌙</button>
+  </div>
+</header>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Hi, I'm <span>Hardik Sood</span></h1>
+          <div class="hero-subtitle">
+            AI Engineer | ML Developer | Data Scientist
+          </div>
+          <p>
+            MSc Data Science graduate with strong foundations in machine
+            learning, deep learning, computer vision, and large language models.
+            Skilled in Python, PyTorch, and SQL with experience in deploying
+            intelligent systems for real-world applications.
+          </p>
+          <div class="cta-buttons">
+            <a href="#contact" class="btn btn-primary">Get In Touch</a>
+            <a href="#projects" class="btn btn-secondary">View Projects</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>AI Engineer & Data Scientist</h3>
+            <p>
+              MSc Data Science graduate with hands-on expertise in deploying AI
+              applications in real-world domains such as healthcare,
+              agriculture, surveillance, and e-commerce. Skilled in Python,
+              PyTorch, TensorFlow, OpenCV, and cloud services like AWS & GCP.
+            </p>
+            <p>
+              Built and deployed scalable solutions involving OCR, face
+              recognition, product intelligence, and real-time tracking. Strong
+              in LLM fine-tuning, MLOps with Docker & Triton, and cloud
+              automation.
+            </p>
+
+            <div class="about-skills">
+              <div class="skill-category">
+                <h4>Technical Skills</h4>
+                <ul class="skill-list">
+                  <li>Python, R, SQL, C++</li>
+                  <li>PyTorch, TensorFlow, Hugging Face</li>
+                  <li>OpenCV, ONNX, TensorRT</li>
+                  <li>AWS, Azure, Google Cloud</li>
+                </ul>
+              </div>
+
+              <div class="skill-category">
+                <h4>Specializations</h4>
+                <ul class="skill-list">
+                  <li>Computer Vision</li>
+                  <li>Natural Language Processing</li>
+                  <li>Real-time Object Detection</li>
+                  <li>Cloud Deployment & MLOps</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-image">
+            <img
+              src="https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=2070&auto=format&fit=crop"
+              alt="AI Engineer"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h3 class="skill-title">Programming</h3>
+            <ul class="skill-items">
+              <li>Python</li>
+              <li>R</li>
+              <li>SQL</li>
+              <li>C++</li>
+              <li>Java</li>
+              <li>HTML/CSS</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-brain"></i>
+            </div>
+            <h3 class="skill-title">AI/ML Frameworks</h3>
+            <ul class="skill-items">
+              <li>PyTorch</li>
+              <li>TensorFlow</li>
+              <li>Hugging Face</li>
+              <li>ONNX</li>
+              <li>TensorRT</li>
+              <li>PaddleOCR</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-cloud"></i>
+            </div>
+            <h3 class="skill-title">Cloud & DevOps</h3>
+            <ul class="skill-items">
+              <li>AWS</li>
+              <li>Azure</li>
+              <li>Google Cloud</li>
+              <li>Docker</li>
+              <li>Triton</li>
+              <li>Flask</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3 class="skill-title">Data & Visualization</h3>
+            <ul class="skill-items">
+              <li>MySQL</li>
+              <li>MongoDB</li>
+              <li>Power BI</li>
+              <li>Tableau</li>
+              <li>Matplotlib</li>
+              <li>Excel</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card" data-project="person-detection">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1586769852836-bc069f19e1b6?q=80&w=2070&auto=format&fit=crop"
+                alt="Person Detection"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Real-Time Person Detection</h3>
+              <p class="project-description">
+                Advanced surveillance system with real-time person detection,
+                tracking, and face recognition with ROI alerts.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">YOLOv8</span>
+                <span class="tech-tag">DeepSORT</span>
+                <span class="tech-tag">OpenCV</span>
+                <span class="tech-tag">Docker</span>
+              </div>
+              <a href="#" class="project-link"
+                >View Details <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card" data-project="yield-prediction">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1517130038641-a774d04afb3c?q=80&w=2070&auto=format&fit=crop"
+                alt="Yield Prediction"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">LLM-based Yield Prediction</h3>
+              <p class="project-description">
+                Fine-tuned OpenLLaMA model using LoRA adapters for crop yield
+                prediction from structured data.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">OpenLLaMA</span>
+                <span class="tech-tag">LoRA</span>
+                <span class="tech-tag">Hugging Face</span>
+                <span class="tech-tag">GCP</span>
+              </div>
+              <a href="#" class="project-link"
+                >View Details <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card" data-project="vehicle-monitoring">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=1930&auto=format&fit=crop"
+                alt="Vehicle Monitoring"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Real-Time Vehicle Monitoring</h3>
+              <p class="project-description">
+                End-to-end vehicle detection and speed estimation pipeline for
+                live video streams.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">OpenCV</span>
+                <span class="tech-tag">YOLO</span>
+                <span class="tech-tag">Real-time</span>
+                <span class="tech-tag">Docker</span>
+              </div>
+              <a href="#" class="project-link"
+                >View Details <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-card" data-project="medical-ocr">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=2069&auto=format&fit=crop"
+                alt="Medical OCR"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Medical Document OCR</h3>
+              <p class="project-description">
+                Solution to extract and summarize key information from medical
+                documents and images.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">OCR</span>
+                <span class="tech-tag">NLP</span>
+                <span class="tech-tag">Multilingual</span>
+                <span class="tech-tag">AWS</span>
+              </div>
+              <a href="#" class="project-link"
+                >View Details <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="project-card" data-project="product-intelligence">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1550009158-9ebf69173e03?q=80&w=1956&auto=format&fit=crop"
+                alt="Product Intelligence"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Product Image Intelligence</h3>
+              <p class="project-description">
+                AI-powered application that analyzes product images to generate
+                titles and descriptions.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Computer Vision</span>
+                <span class="tech-tag">LLM</span>
+                <span class="tech-tag">Flask</span>
+                <span class="tech-tag">GCP</span>
+              </div>
+              <a href="#" class="project-link"
+                >View Details <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="project-card" data-project="diabetic-prediction">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070&auto=format&fit=crop"
+                alt="Diabetic Prediction"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Diabetic Patient Prediction</h3>
+              <p class="project-description">
+                Regression model achieving 8% MAPE for diabetes predictions with
+                feature engineering.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Machine Learning</span>
+                <span class="tech-tag">Regression</span>
+                <span class="tech-tag">EDA</span>
+                <span class="tech-tag">Python</span>
+              </div>
+              <a href="#" class="project-link"
+                >View Details <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+      <div class="container">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="experience-grid">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <h3 class="skill-title">Apprentice</h3>
+            <p class="skill-items">CCS Computer Private Limited</p>
+            <p class="skill-items">Jan 2024 - Present</p>
+            <ul class="skill-items">
+              <li>Supported enterprise software deployment</li>
+              <li>Assisted with technical troubleshooting</li>
+              <li>Integrated data solutions under supervision</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3 class="skill-title">Data Analyst Intern</h3>
+            <p class="skill-items">Vodafone Idea Foundation</p>
+            <p class="skill-items">Oct 2024 - Nov 2024</p>
+            <ul class="skill-items">
+              <li>Analyzed agriculture datasets</li>
+              <li>Improved client efficiency by 15%</li>
+              <li>Explored LLMs for case study reports</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3 class="skill-title">Data Science Intern</h3>
+            <p class="skill-items">Code Alpha</p>
+            <p class="skill-items">June 2024 - July 2024</p>
+            <ul class="skill-items">
+              <li>Built predictive models</li>
+              <li>Achieved 92% accuracy</li>
+              <li>Deployed customer behavior insights</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-utensils"></i>
+            </div>
+            <h3 class="skill-title">Data Science Intern</h3>
+            <p class="skill-items">Cognifyz Technologies</p>
+            <p class="skill-items">April 2024 - May 2024</p>
+            <ul class="skill-items">
+              <li>Delivered restaurant analytics</li>
+              <li>Reduced costs by 18%</li>
+              <li>Created forecasting models</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Email</h3>
+                <a href="mailto:hardiksood8@gmail.com">hardiksood8@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Phone</h3>
+                <p>+91 6377279565</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Location</h3>
+                <p>India</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-file-pdf"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Resume</h3>
+                <a
+                  href="https://github.com/hardiksood1/portfolio/raw/main/Hardik%20Sood%20resume.pdf"
+                  target="_blank"
+                  >Download Resume</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Your Email" required />
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Subject" required />
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="social-links">
+          <a
+            href="https://linkedin.com/in/hardiksood1"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a
+            href="https://github.com/hardiksood1"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="#" class="social-link">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+        <p class="copyright">© 2025 Hardik Sood. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Project Modals -->
+    <!-- Person Detection Modal -->
+    <div class="project-modal" id="person-detection-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close-modal">&times;</button>
+          <h2 class="modal-title">
+            Real-Time Person Detection, Tracking, and Face Recognition
+          </h2>
+          <p class="modal-subtitle">
+            Advanced surveillance system with ROI alerts
+          </p>
+        </div>
+        <div class="modal-body">
+          <div class="modal-image">
+            <img
+              src="https://images.unsplash.com/photo-1586769852836-bc069f19e1b6?q=80&w=2070&auto=format&fit=crop"
+              alt="Person Detection"
+            />
+          </div>
+
+          <div class="modal-section">
+            <h3>Project Overview</h3>
+            <p>
+              Developed a robust surveillance system that detects and tracks
+              persons in a video feed, recognizes known faces, logs entry and
+              exit within polygonal ROIs, and sends WhatsApp alerts when persons
+              enter sensitive regions. The system streams processed video live
+              over RTSP for real-time monitoring.
+            </p>
+          </div>
+
+          <div class="modal-section">
+            <h3>Key Features</h3>
+            <ul>
+              <li>
+                Real-time person detection using YOLOv8 and face recognition
+              </li>
+              <li>
+                Multi-object tracking with DeepSORT for consistent ID assignment
+              </li>
+              <li>Identification of known vs unknown individuals</li>
+              <li>Custom polygonal ROI drawing using OpenCV</li>
+              <li>Entry/exit tracking with time spent calculation</li>
+              <li>
+                Automated WhatsApp alerts with person ID, name, timestamp and
+                snapshot
+              </li>
+              <li>Docker-based RTSP server for flexible deployment</li>
+              <li>
+                Real-time stream monitoring via VLC or any RTSP-compatible
+                client
+              </li>
+            </ul>
+          </div>
+
+          <div class="modal-section">
+            <h3>Technologies Used</h3>
+            <div class="tech-grid">
+              <div class="tech-item">YOLOv8</div>
+              <div class="tech-item">DeepSORT</div>
+              <div class="tech-item">OpenCV</div>
+              <div class="tech-item">FFmpeg</div>
+              <div class="tech-item">Docker</div>
+              <div class="tech-item">WhatsApp API</div>
+              <div class="tech-item">Python</div>
+              <div class="tech-item">Flask</div>
+            </div>
+          </div>
+
+          <div class="modal-section">
+            <h3>Skills Demonstrated</h3>
+            <ul>
+              <li>Real-time object detection & tracking</li>
+              <li>Face recognition and re-identification</li>
+              <li>ROI logic and event logging</li>
+              <li>API integration (WhatsApp, RTSP)</li>
+              <li>System deployment using Docker</li>
+              <li>Asynchronous alert handling</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Yield Prediction Modal -->
+    <div class="project-modal" id="yield-prediction-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close-modal">&times;</button>
+          <h2 class="modal-title">
+            LLM-based Yield Prediction using OpenLLaMA & LoRA Fine-Tuning
+          </h2>
+          <p class="modal-subtitle">
+            NLP for regression task predicting crop yield
+          </p>
+        </div>
+        <div class="modal-body">
+          <div class="modal-image">
+            <img
+              src="https://images.unsplash.com/photo-1517130038641-a774d04afb3c?q=80&w=2070&auto=format&fit=crop"
+              alt="Yield Prediction"
+            />
+          </div>
+
+          <div class="modal-section">
+            <h3>Project Overview</h3>
+            <p>
+              Fine-tuned a 7B OpenLLaMA model using LoRA adapters for a
+              regression task predicting crop yield from structured tabular
+              data. Engineered prompt templates to convert regression into a
+              text generation task, achieving scalable deployment-ready output
+              with predictions stored in Excel.
+            </p>
+          </div>
+
+          <div class="modal-section">
+            <h3>Key Features</h3>
+            <ul>
+              <li>Fine-tuned OpenLLaMA 7B model using LoRA adapters</li>
+              <li>4-bit quantization and PEFT for memory-efficient training</li>
+              <li>Engineered prompt templates from Excel data</li>
+              <li>Converted regression task to text generation</li>
+              <li>Evaluated using RMSE, MAE, and R² metrics</li>
+              <li>
+                Implemented JSONL dataset pipeline using Hugging Face Datasets
+              </li>
+              <li>Scalable deployment with predictions stored in Excel</li>
+            </ul>
+          </div>
+
+          <div class="modal-section">
+            <h3>Technologies Used</h3>
+            <div class="tech-grid">
+              <div class="tech-item">OpenLLaMA 7B</div>
+              <div class="tech-item">LoRA</div>
+              <div class="tech-item">Hugging Face</div>
+              <div class="tech-item">PEFT</div>
+              <div class="tech-item">PyTorch</div>
+              <div class="tech-item">GCP</div>
+              <div class="tech-item">Linux</div>
+              <div class="tech-item">Python</div>
+            </div>
+          </div>
+
+          <div class="modal-section">
+            <h3>Skills Demonstrated</h3>
+            <ul>
+              <li>LLM fine-tuning with adapters</li>
+              <li>Memory-efficient model training</li>
+              <li>Prompt engineering for regression tasks</li>
+              <li>Quantization techniques</li>
+              <li>Dataset pipeline implementation</li>
+              <li>Model evaluation for regression tasks</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+<script src="custom.js"></script>  
+</body>
+</html>

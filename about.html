@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hardik Sood - AI Engineer Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="style1.css"> -->
+  </head>
+  <body>
+    <!-- Header -->
+<header>
+  <div class="container header-container">
+    <a href="#" class="logo"><i class="fas fa-code"></i>Hardik Sood</a>
+
+    <div class="menu-toggle" id="menuToggle">
+      <i class="fas fa-bars"></i>
+    </div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html"  class="active">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="exp.html">Experience</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <!-- 🌙 Dark/Light Mode Toggle Button -->
+    <button id="toggle-theme" class="toggle-btn" title="Toggle Dark/Light Mode">🌙</button>
+  </div>
+</header>
+
+    <!-- Hero Section -->
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>AI Engineer & Data Scientist</h3>
+            <p>
+              MSc Data Science graduate with hands-on expertise in deploying AI
+              applications in real-world domains such as healthcare,
+              agriculture, surveillance, and e-commerce. Skilled in Python,
+              PyTorch, TensorFlow, OpenCV, and cloud services like AWS & GCP.
+            </p>
+            <p>
+              Built and deployed scalable solutions involving OCR, face
+              recognition, product intelligence, and real-time tracking. Strong
+              in LLM fine-tuning, MLOps with Docker & Triton, and cloud
+              automation.
+            </p>
+
+            <div class="about-skills">
+              <div class="skill-category">
+                <h4>Technical Skills</h4>
+                <ul class="skill-list">
+                  <li>Python, R, SQL, C++</li>
+                  <li>PyTorch, TensorFlow, Hugging Face</li>
+                  <li>OpenCV, ONNX, TensorRT</li>
+                  <li>AWS, Azure, Google Cloud</li>
+                </ul>
+              </div>
+
+              <div class="skill-category">
+                <h4>Specializations</h4>
+                <ul class="skill-list">
+                  <li>Computer Vision</li>
+                  <li>Natural Language Processing</li>
+                  <li>Real-time Object Detection</li>
+                  <li>Cloud Deployment & MLOps</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-image">
+            <img
+              src="https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=2070&auto=format&fit=crop"
+              alt="AI Engineer"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="social-links">
+          <a
+            href="https://linkedin.com/in/hardiksood1"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a
+            href="https://github.com/hardiksood1"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="#" class="social-link">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+        <p class="copyright">© 2025 Hardik Sood. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Project Modals -->
+    <!-- Person Detection Modal -->
+    <div class="project-modal" id="person-detection-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close-modal">&times;</button>
+          <h2 class="modal-title">
+            Real-Time Person Detection, Tracking, and Face Recognition
+          </h2>
+          <p class="modal-subtitle">
+            Advanced surveillance system with ROI alerts
+          </p>
+        </div>
+        <div class="modal-body">
+          <div class="modal-image">
+            <img
+              src="https://images.unsplash.com/photo-1586769852836-bc069f19e1b6?q=80&w=2070&auto=format&fit=crop"
+              alt="Person Detection"
+            />
+          </div>
+
+          <div class="modal-section">
+            <h3>Project Overview</h3>
+            <p>
+              Developed a robust surveillance system that detects and tracks
+              persons in a video feed, recognizes known faces, logs entry and
+              exit within polygonal ROIs, and sends WhatsApp alerts when persons
+              enter sensitive regions. The system streams processed video live
+              over RTSP for real-time monitoring.
+            </p>
+          </div>
+
+          <div class="modal-section">
+            <h3>Key Features</h3>
+            <ul>
+              <li>
+                Real-time person detection using YOLOv8 and face recognition
+              </li>
+              <li>
+                Multi-object tracking with DeepSORT for consistent ID assignment
+              </li>
+              <li>Identification of known vs unknown individuals</li>
+              <li>Custom polygonal ROI drawing using OpenCV</li>
+              <li>Entry/exit tracking with time spent calculation</li>
+              <li>
+                Automated WhatsApp alerts with person ID, name, timestamp and
+                snapshot
+              </li>
+              <li>Docker-based RTSP server for flexible deployment</li>
+              <li>
+                Real-time stream monitoring via VLC or any RTSP-compatible
+                client
+              </li>
+            </ul>
+          </div>
+
+          <div class="modal-section">
+            <h3>Technologies Used</h3>
+            <div class="tech-grid">
+              <div class="tech-item">YOLOv8</div>
+              <div class="tech-item">DeepSORT</div>
+              <div class="tech-item">OpenCV</div>
+              <div class="tech-item">FFmpeg</div>
+              <div class="tech-item">Docker</div>
+              <div class="tech-item">WhatsApp API</div>
+              <div class="tech-item">Python</div>
+              <div class="tech-item">Flask</div>
+            </div>
+          </div>
+
+          <div class="modal-section">
+            <h3>Skills Demonstrated</h3>
+            <ul>
+              <li>Real-time object detection & tracking</li>
+              <li>Face recognition and re-identification</li>
+              <li>ROI logic and event logging</li>
+              <li>API integration (WhatsApp, RTSP)</li>
+              <li>System deployment using Docker</li>
+              <li>Asynchronous alert handling</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Yield Prediction Modal -->
+    <div class="project-modal" id="yield-prediction-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close-modal">&times;</button>
+          <h2 class="modal-title">
+            LLM-based Yield Prediction using OpenLLaMA & LoRA Fine-Tuning
+          </h2>
+          <p class="modal-subtitle">
+            NLP for regression task predicting crop yield
+          </p>
+        </div>
+        <div class="modal-body">
+          <div class="modal-image">
+            <img
+              src="https://images.unsplash.com/photo-1517130038641-a774d04afb3c?q=80&w=2070&auto=format&fit=crop"
+              alt="Yield Prediction"
+            />
+          </div>
+
+          <div class="modal-section">
+            <h3>Project Overview</h3>
+            <p>
+              Fine-tuned a 7B OpenLLaMA model using LoRA adapters for a
+              regression task predicting crop yield from structured tabular
+              data. Engineered prompt templates to convert regression into a
+              text generation task, achieving scalable deployment-ready output
+              with predictions stored in Excel.
+            </p>
+          </div>
+
+          <div class="modal-section">
+            <h3>Key Features</h3>
+            <ul>
+              <li>Fine-tuned OpenLLaMA 7B model using LoRA adapters</li>
+              <li>4-bit quantization and PEFT for memory-efficient training</li>
+              <li>Engineered prompt templates from Excel data</li>
+              <li>Converted regression task to text generation</li>
+              <li>Evaluated using RMSE, MAE, and R² metrics</li>
+              <li>
+                Implemented JSONL dataset pipeline using Hugging Face Datasets
+              </li>
+              <li>Scalable deployment with predictions stored in Excel</li>
+            </ul>
+          </div>
+
+          <div class="modal-section">
+            <h3>Technologies Used</h3>
+            <div class="tech-grid">
+              <div class="tech-item">OpenLLaMA 7B</div>
+              <div class="tech-item">LoRA</div>
+              <div class="tech-item">Hugging Face</div>
+              <div class="tech-item">PEFT</div>
+              <div class="tech-item">PyTorch</div>
+              <div class="tech-item">GCP</div>
+              <div class="tech-item">Linux</div>
+              <div class="tech-item">Python</div>
+            </div>
+          </div>
+
+          <div class="modal-section">
+            <h3>Skills Demonstrated</h3>
+            <ul>
+              <li>LLM fine-tuning with adapters</li>
+              <li>Memory-efficient model training</li>
+              <li>Prompt engineering for regression tasks</li>
+              <li>Quantization techniques</li>
+              <li>Dataset pipeline implementation</li>
+              <li>Model evaluation for regression tasks</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- customejs -->
+    <!-- <script src="custom.js"></script> -->
+    <script src="custom.js"></script>  
+  </body>
+</html>
